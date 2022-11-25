@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/hushaan-fromtinyisles-Jvx1zlTEOaM-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
 }
 
 .u-section-1 .u-sheet-1 {
@@ -8,9 +8,16 @@
 
 .u-section-1 .u-group-elements-1 {
   width: 996px;
+  min-height: 369px;
+  height: auto;
+  margin: 588px 0 60px auto;
+}
+
+.u-section-1 .u-group-elements-2 {
   min-height: 269px;
   height: auto;
-  margin: 791px 0 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-text-1 {
@@ -28,7 +35,7 @@
 .u-section-1 .u-image-1 {
   width: 50px;
   height: 50px;
-  margin: 50px auto 0;
+  margin: 50px auto 0 401px;
 }
 
 @media (max-width: 1199px) {
@@ -57,12 +64,8 @@
   .u-section-1 .u-group-elements-1 {
     width: 340px;
   }
-
-  .u-section-1 .u-text-1 {
-    font-size: 1.875rem;
-  }
 } .u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/hushaan-fromtinyisles-Jvx1zlTEOaM-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
 }
 
 .u-section-2 .u-sheet-1 {
@@ -106,14 +109,22 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1277px;
+  }
+
   .u-section-2 .u-group-elements-1 {
-    min-height: 221px;
-    margin-top: 1009px;
-    margin-bottom: 30px;
+    min-height: 240px;
+    margin-top: 787px;
+    margin-bottom: 60px;
     height: auto;
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-2 .u-group-elements-2 {
+    margin-top: 0;
   }
 
   .u-section-2 .u-text-1 {
@@ -131,7 +142,7 @@
   font-weight: 900;
   margin: 60px auto;
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("images/pawel-czerwinski-yI4I3OrpB0I-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85));
 }
 
 .u-section-4 .u-sheet-1 {
@@ -233,7 +244,7 @@
   font-weight: 900;
   margin: 60px auto;
 } .u-section-6 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("images/orfeas-green-G5A5ZNjS2tE-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85));
 }
 
 .u-section-6 .u-sheet-1 {

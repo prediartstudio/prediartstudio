@@ -1,15 +1,15 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 100vh;
+  min-height: 1260px;
 }
 
 .u-section-1 .u-group-elements-1 {
   min-height: 415px;
-  margin-top: 845px;
-  margin-bottom: 0;
+  margin-top: 595px;
+  margin-bottom: 60px;
   height: auto;
 }
 
@@ -17,7 +17,6 @@
   min-height: 331px;
   margin-top: 0;
   margin-bottom: 0;
-  width: 1140px;
 }
 
 .u-section-1 .u-text-1 {
@@ -69,8 +68,8 @@
     background-position: 50% 50%;
   }
 
-  .u-section-1 .u-group-elements-2 {
-    width: auto;
+  .u-section-1 .u-sheet-1 {
+    min-height: 1039px;
   }
 }
 
@@ -88,14 +87,14 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 100vh;
+    min-height: 376px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
   }
 } .u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Screenshot_20221124-165810_Photos.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
 
 .u-section-2 .u-sheet-1 {
@@ -171,12 +170,13 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 100vh;
+    min-height: 1260px;
   }
 
   .u-section-2 .u-group-elements-1 {
     min-height: 314px;
-    margin-top: 946px;
+    margin-top: 696px;
+    margin-bottom: 60px;
     height: auto;
     margin-right: initial;
     margin-left: initial;
@@ -229,7 +229,6 @@
 .u-section-3 .u-image-1 {
   width: 300px;
   height: 300px;
-  background-image: url("images/IMG202211151419212-01.jpeg.jpg");
   background-position: 50% 50%;
   margin: 0 28px 0 auto;
 }
@@ -330,8 +329,7 @@
   }
 
   .u-section-3 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 30px;
   }
 
   .u-section-3 .u-group-elements-1 {
@@ -346,6 +344,10 @@
 
   .u-section-3 .u-layout-cell-2 {
     min-height: 100px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding: 0;
   }
 
   .u-section-3 .u-text-1 {
@@ -443,7 +445,7 @@
     margin-left: auto;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/clint-mckoy-YdnzN-Vrhqc-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 }
 
 .u-section-4 .u-sheet-1 {
@@ -714,6 +716,11 @@
   .u-section-5 .u-group-1 {
     width: 720px;
   }
+
+  .u-section-5 .u-container-layout-1 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -745,7 +752,7 @@
     font-size: 1.875rem;
   }
 } .u-section-6 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/pexelsphoto3220731.jpeg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25));
 }
 
 .u-section-6 .u-sheet-1 {

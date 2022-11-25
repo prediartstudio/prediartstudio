@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/rahul-jain-JOYtT8_Y7c8-unsplash-01.jpeg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65));
 }
 
 .u-section-1 .u-sheet-1 {
@@ -60,7 +60,7 @@
     width: 340px;
   }
 } .u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/rahul-jain-JOYtT8_Y7c8-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65));
 }
 
 .u-section-2 .u-sheet-1 {
@@ -69,9 +69,14 @@
 
 .u-section-2 .u-group-elements-1 {
   width: 340px;
-  min-height: 151px;
+  margin: 1050px auto 0 0;
+}
+
+.u-section-2 .u-group-elements-2 {
+  min-height: 126px;
   height: auto;
-  margin: 454px 0 50px auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-2 .u-text-1 {
@@ -79,13 +84,13 @@
 }
 
 .u-section-2 .u-text-2 {
-  margin: 40px 0 0;
+  margin: 10px 0 0;
 }
 
 .u-section-2 .u-image-1 {
   width: 50px;
   height: 50px;
-  margin: 17px auto;
+  margin: 17px auto 0 145px;
 }
 
 @media (max-width: 1199px) {
@@ -112,21 +117,17 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 100vh;
+    min-height: 1260px;
   }
 
   .u-section-2 .u-group-elements-1 {
-    min-height: 126px;
-    margin-top: 1050px;
-    margin-bottom: 0;
+    min-height: 193px;
+    margin-top: 817px;
+    margin-bottom: 60px;
+    height: auto;
     margin-right: initial;
     margin-left: initial;
     width: auto;
-  }
-
-  .u-section-2 .u-text-2 {
-    width: auto;
-    margin-top: 10px;
   }
 } .u-section-3 {
   min-height: 66px;
@@ -261,6 +262,11 @@
 
   .u-section-3 .u-layout-cell-1 {
     min-height: 100px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-3 .u-layout-cell-2 {
@@ -413,6 +419,11 @@
 
   .u-section-4 .u-layout-cell-1 {
     min-height: 100px;
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-4 .u-layout-cell-2 {
@@ -578,6 +589,11 @@
 
   .u-section-5 .u-layout-cell-2 {
     min-height: 100px;
+  }
+
+  .u-section-5 .u-container-layout-2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
