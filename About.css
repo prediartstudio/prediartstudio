@@ -1,47 +1,34 @@
  .u-section-1 {
-  background-image: url("images/pexels-photo-3880976.jpeg");
-  background-position: 100% 69.81%;
-  background-size: 110%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/IMG_20210107_101529_997-01-01.jpeg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 669px;
+  min-height: 523px;
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 2.25rem;
-  font-weight: 300;
-  margin: 380px 0 0 790px;
-}
-
-.u-section-1 .u-text-2 {
   font-size: 8.125rem;
   font-weight: 900;
-  margin: 0 0 60px auto;
+  margin: 311px 0 60px auto;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 552px;
+   .u-section-1 {
+    background-size: 110%;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-left: 590px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 431px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 423px;
+    min-height: 330px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.5rem;
-    width: auto;
-    margin-left: 474px;
-  }
-
-  .u-section-1 .u-text-2 {
     font-size: 6rem;
   }
 }
@@ -58,7 +45,6 @@
 
   .u-section-1 .u-text-1 {
     margin-top: 346px;
-    margin-left: 270px;
   }
 }
 
@@ -73,10 +59,14 @@
   }
 
   .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
     margin-top: 60px;
-    margin-left: 97px;
   }
-}.u-section-2 .u-sheet-1 {
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
   min-height: 349px;
 }
 
@@ -85,7 +75,7 @@
 }
 
 .u-section-2 .u-layout-cell-1 {
-  min-height: 420px;
+  min-height: 626px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -93,11 +83,8 @@
 }
 
 .u-section-2 .u-text-1 {
-  margin: 79px auto 0 0;
-}
-
-.u-section-2 .u-text-2 {
-  margin: 20px 0 0;
+  font-size: 1.875rem;
+  margin: 0;
 }
 
 @media (max-width: 1199px) {
@@ -111,7 +98,7 @@
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 346px;
+    min-height: 516px;
   }
 }
 
@@ -134,6 +121,6 @@
   }
 
   .u-section-2 .u-text-1 {
-    width: auto;
+    font-size: 1.125rem;
   }
 }
