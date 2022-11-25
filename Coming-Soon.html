@@ -25,7 +25,56 @@
     <meta property="og:title" content="Coming Soon">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  </head>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcsQTIjAAAAAFr_bZXIyCVCbRcEo6w1uHz4Ua8f"></script>
+    <script>
+        (function (grecaptcha, sitekey, actions) {
+            var recaptcha = {
+                execute: function (action, submitFormCb) {
+                    try {
+                        grecaptcha.execute(
+                            sitekey,
+                            {action: action}
+                        ).then(function (token) {
+                            var forms = document.getElementsByTagName('form');
+
+                            for (var i = 0; i < forms.length; i++) {
+                                var fields = forms[i].getElementsByTagName('input');
+
+                                for (var j = 0; j < fields.length; j++) {
+                                    var field = fields[j];
+
+                                    if ('recaptchaResponse' === field.getAttribute('name')) {
+                                        field.setAttribute('value', token);
+                                        break;
+                                    }
+                                }
+                            }
+                            submitFormCb();
+                        });
+                    } catch (e) {
+                        var formError = document.querySelector('.u-form-send-error');
+
+                        if (formError) {
+                            formError.innerText = 'Site Owner Error: ' + e.message.replace(/:[\s\S]*/, '');
+                            formError.style.display = 'block';
+                        }
+                    }
+                },
+
+                executeContact: function (submitFormCb) {
+                    recaptcha.execute(actions['contact'], submitFormCb);
+                }
+            };
+
+            window.recaptchaObject = recaptcha;
+        })(
+            grecaptcha,
+            
+            '6LcsQTIjAAAAAFr_bZXIyCVCbRcEo6w1uHz4Ua8f',
+            {'contact': 'contact'}
+        );
+    </script>
+</head>
   <body class="u-body u-overlap u-overlap-contrast u-overlap-transparent u-xl-mode" data-lang="en"><header class="u-clearfix u-header" id="sec-0bd4"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="Home.html" class="u-image u-logo u-image-1" data-image-width="1200" data-image-height="630" title="Home">
           <img src="images/project_20221123_2032492-011.png" class="u-logo-image u-logo-image-1">
@@ -78,6 +127,7 @@
             <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
             <input type="hidden" value="" name="recaptchaResponse">
             <input type="hidden" name="formServices" value="c7890eaac3573719088f056e03c094ff">
+            <input type="hidden" name="siteKey" value="6LcsQTIjAAAAAFr_bZXIyCVCbRcEo6w1uHz4Ua8f">
           </form>
         </div>
       </div>
