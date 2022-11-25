@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/rahul-jain-JOYtT8_Y7c8-unsplash-01.jpeg?rand=7fbe");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -60,7 +60,7 @@
     width: 340px;
   }
 } .u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/rahul-jain-JOYtT8_Y7c8-unsplash.jpg");
 }
 
 .u-section-2 .u-sheet-1 {
@@ -264,11 +264,6 @@
     min-height: 100px;
   }
 
-  .u-section-3 .u-container-layout-1 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .u-section-3 .u-layout-cell-2 {
     min-height: 100px;
   }
@@ -419,11 +414,6 @@
 
   .u-section-4 .u-layout-cell-1 {
     min-height: 100px;
-  }
-
-  .u-section-4 .u-container-layout-1 {
-    padding-left: 0;
-    padding-right: 0;
   }
 
   .u-section-4 .u-layout-cell-2 {
@@ -589,11 +579,6 @@
 
   .u-section-5 .u-layout-cell-2 {
     min-height: 100px;
-  }
-
-  .u-section-5 .u-container-layout-2 {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
