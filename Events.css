@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/rahul-jain-JOYtT8_Y7c8-unsplash-01.jpeg?rand=7fbe");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -10,7 +11,7 @@
   width: 826px;
   min-height: 151px;
   height: auto;
-  margin: 454px 0 50px auto;
+  margin: 60px 0 60px auto;
 }
 
 .u-section-1 .u-text-1 {
@@ -22,10 +23,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 540px;
   }
@@ -61,6 +58,7 @@
   }
 } .u-section-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/rahul-jain-JOYtT8_Y7c8-unsplash.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-sheet-1 {
@@ -94,10 +92,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-2 {
-    background-position: 50% 50%;
-  }
-
   .u-section-2 .u-sheet-1 {
     min-height: 162px;
   }
@@ -121,13 +115,17 @@
   }
 
   .u-section-2 .u-group-elements-1 {
-    min-height: 193px;
-    margin-top: 692px;
+    min-height: 194px;
+    margin-top: 60px;
     margin-bottom: 60px;
     height: auto;
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-left: auto;
   }
 } .u-section-3 {
   min-height: 66px;
