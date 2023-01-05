@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg?rand=3cf1");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/IMG_20220711_181941-01.jpeg.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -229,7 +229,7 @@
 .u-section-3 .u-image-1 {
   width: 300px;
   height: 300px;
-  background-image: url("images/IMG202211151419212-01.jpeg.jpg");
+  background-image: url("images/IMG_5501-01.jpeg.jpg");
   background-position: 50% 50%;
   margin: 0 28px 0 auto;
 }
@@ -251,18 +251,18 @@
 
 .u-section-3 .u-text-1 {
   font-size: 3rem;
-  margin: 30px auto 0 60px;
+  margin: 34px auto 0 30px;
 }
 
 .u-section-3 .u-image-3 {
-  height: 622px;
-  width: 591px;
-  margin: -122px -29px 0 auto;
+  height: 355px;
+  width: 601px;
+  margin: 20px -15px 0;
 }
 
 .u-section-3 .u-btn-1 {
   border-style: solid;
-  margin: -145px auto 0 50px;
+  margin: 20px auto 0 30px;
   padding: 0;
 }
 
@@ -312,6 +312,7 @@
     margin-top: 65px;
     width: 470px;
     margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-3 .u-btn-1 {
